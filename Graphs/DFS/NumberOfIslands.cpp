@@ -3,8 +3,14 @@
 
 // Leetcode Problem Link: https://leetcode.com/problems/number-of-islands/
 
-
-
+/*
+1. Initialize island count to 0.
+2. Iterate over each cell in the grid.
+3. Check if the cell is land ('1').
+4. Perform DFS to mark all parts of the island as visited.
+5. Increment island count after each DFS.
+6. Return the total island count.
+*/
 
 class Solution {
 public:
