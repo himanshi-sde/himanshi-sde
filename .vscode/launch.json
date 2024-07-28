@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "/Users/himanshi/Desktop/Notes/himanshi-sde/Graphs/DFS",
+      "program": "/Users/himanshi/Desktop/Notes/himanshi-sde/Graphs/DFS/build/Debug/outDebug"
+    }
+  ]
+}
