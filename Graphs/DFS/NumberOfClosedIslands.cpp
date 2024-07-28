@@ -1,6 +1,15 @@
 
 //Problem Link: https://leetcode.com/problems/number-of-closed-islands/
 
+/*
+
+1. Initialize the closed island count to 0.
+2. Iterate through each cell in the grid.
+3. Check if the cell is land (0).
+4. Perform DFS to determine if the island is closed.
+5. Increment the closed island count if the DFS confirms the island is closed.
+6. Return the closed island count.*/
+
 
 class Solution {
 public:
